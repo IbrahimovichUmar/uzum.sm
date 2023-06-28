@@ -450,3 +450,61 @@ button:hover {
 .product_banner_img:hover {
   transform: scale(1.02);
 }
+
+/* FOOTER */
+.footer {
+  font-family: "Roboto";
+}
+.footer_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding-top: 50px;
+}
+.footer_content h3 {
+  font-size: 14px;
+  color: #1f1f26;
+  margin-bottom: 20px;
+}
+.footer_info {
+  list-style-type: none;
+}
+.footer_info li {
+  font-size: 12px;
+  color: #4d4e59;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.footer_apps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 220px;
+  margin-bottom: 40px;
+}
+.footer_apps p {
+  display: flex;
+  align-items: center;
+}
+.footer_media {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 20px;
+  width: 200px;
+}
+.footer_line {
+  border: none;
+  height: 1px;
+  background-color: #62656a;
+  margin: 80px 0px 20px 0px;
+}
+.footer_extra_info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+/* FOOTER */
