@@ -589,7 +589,7 @@ function renderSale(saleArray) {
 }
 
 document.body.onload = renderSale(dataSource);
-
+// some comment
 //////////////////////////////////////////////////////////
 const list = document.querySelector(".sale_products");
 const moreBtn = document.querySelector(".js-more-btn");
